@@ -1,5 +1,59 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* navbar btn */
+.navbar_btn {
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 30px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar_btn:hover{
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: Azeret Mono;
+}
+
+header {
+    max-width: 1440px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+/* nav section */
+nav{
+    margin: 20px 0;
+    border: 1px solid green;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul .logo {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
