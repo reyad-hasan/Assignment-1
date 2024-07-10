@@ -135,12 +135,13 @@ nav ul .logo {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
+    letter-spacing: -0.5px;
 }
 
 .box_left p {
     font-size: 13px;
     line-height: 18px;
+    letter-spacing: 0.5px;
 }
 
 /* why development section style start here */
@@ -224,4 +225,18 @@ nav ul .logo {
 
 .box_22 .box_left {
     width: 60%;
+}
+
+/* my inspiration section style here */
+#my_inspiration {
+    margin: 50px auto;
+    height: 777px;
+}
+
+.video_frame_box {
+    height: 575px;
+    padding: 50px;
+    margin: 50px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
 }
