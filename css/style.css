@@ -63,6 +63,15 @@
     color: rgb(255, 255, 255)
 }
 
+.target_btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px
+}
+
 body {
     font-family: Azeret Mono;
 }
@@ -138,7 +147,8 @@ nav ul .logo {
     letter-spacing: -0.5px;
 }
 
-.box_left p {
+.box_left p,
+.target_container .box p {
     font-size: 13px;
     line-height: 18px;
     letter-spacing: 0.5px;
@@ -229,7 +239,7 @@ nav ul .logo {
 
 /* my inspiration section style here */
 #my_inspiration {
-    margin: 50px auto;
+    margin: 50px auto 0px auto;
     height: 777px;
 }
 
@@ -239,4 +249,42 @@ nav ul .logo {
     margin: 50px;
     border: 1px solid lightgray;
     border-radius: 16px;
+}
+
+/* my_current_target style here */
+.target_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+
+.target_container .box {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.target_container .target_box2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target_container .target_box2 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target_container .box img {
+    width: 50px;
+}
+
+.target_container .box h2 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
 }
