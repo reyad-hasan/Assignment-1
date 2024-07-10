@@ -386,3 +386,43 @@ nav ul .logo {
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
 }
+
+/* footer section style here */
+footer {
+    border-radius: 16px 16px 0px 0px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer_container {
+    max-width: 1440px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer_container h2 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+}
+
+footer .footer_container .social_link {
+    display: flex;
+    gap: 20px;
+}
+
+footer .footer_container .social_link img {
+    width: 32px;
+}
+
+footer .footer_container .social_link a {
+    transition: 0.3s;
+}
+
+footer .footer_container .social_link a:hover {
+    transform: scale(1.1);
+}
